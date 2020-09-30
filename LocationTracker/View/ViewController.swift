@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import CoreLocation
+import MapKit
 
 class ViewController: UIViewController {
 
+	private var viewModel: ViewModel!
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
+		viewModel = ViewModel()
 	}
-
-
 }
-
